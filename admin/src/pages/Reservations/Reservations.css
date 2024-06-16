@@ -1,0 +1,54 @@
+.reservations-container {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .reservation-list {
+    width: 100%;
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the reservation list */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align items to the right */
+  }
+  
+  .reservation-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px;
+    background-color: #f9f9f9; /* Light gray background */
+    width: 80%; /* Adjust the width of the reservation items */
+  }
+  
+  .reservation-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover; /* Ensure image aspect ratio is maintained */
+    border-radius: 50%; /* Rounded image */
+  }
+  
+  .reservation-details {
+    flex: 1;
+  }
+  
+  .reservation-details p {
+    margin: 5px 0;
+  }
+  
+  @media (max-width: 1000px) {  
+    .reservation-item {
+      padding: 10px;
+    }
+  
+    .reservation-item img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  

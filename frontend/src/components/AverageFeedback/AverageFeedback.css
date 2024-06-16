@@ -1,0 +1,15 @@
+.average-feedback-container {
+    text-align: center; /* Center-align the text */
+    font-size: 18px; /* Increase the font size */
+
+  }
+  
+  .average-rating {
+    display: inline-block; /* Ensure the rating and image are in-line */
+  }
+  
+  .rating-container {
+    display: flex;
+    align-items: center; /* Align items vertically */
+  }
+  

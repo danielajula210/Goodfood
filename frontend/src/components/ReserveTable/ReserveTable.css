@@ -1,0 +1,58 @@
+.reserve-table {
+    margin: 100px auto;
+    font-size: max(3vw, 20px);
+    text-align: left;
+    font-weight: 500;
+}
+.tables {
+    display: flex;
+    justify-content: center;
+    gap: max(2vw,10px);
+    margin-top: 40px;
+}
+.table {
+    text-align: center;
+}
+.table img {
+    width: max(30vw,120px);
+    max-width: 180px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.table p {
+    margin-top: 10px;
+    font-size: 25px; /* Adjust the font size as desired */
+}
+.table.selected img {
+    transform: scale(1.1); /* Increase the size of the image */
+}
+.reservation-form {
+    margin-top: 20px;
+    padding: 20px; /* Add padding for spacing */
+    border: 2px solid #ccc; /* Add border for visual separation */
+    border-radius: 10px; /* Add border radius for rounded corners */
+}
+.reservation-form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust the font size as desired */
+}
+.reservation-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Add background color */
+    color: #fff; /* Add text color */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust the font size as desired */
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add transition for hover effect */
+}
+.reservation-form button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+}
